@@ -26,7 +26,7 @@ fun Date.add(value: Int, units: TimeUnits = TimeUnits.SECOND): Date{
     return this
 }
 
-fun Date.difference(): String? {
+fun Date.humanizeDiff(): String? {
     val differenceTime = Date()
     differenceTime.time = Date().time - this.time
     return when(differenceTime.time){
