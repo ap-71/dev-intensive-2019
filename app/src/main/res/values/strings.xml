@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">devintensive</string>
+    <string name="text_hint">Введите текст</string>
 </resources>
