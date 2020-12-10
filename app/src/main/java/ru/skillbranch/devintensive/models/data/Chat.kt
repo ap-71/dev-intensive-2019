@@ -1,4 +1,4 @@
-package ru.skillbranch.devintensive.data
+package ru.skillbranch.devintensive.models.data
 
 import ru.skillbranch.devintensive.extensions.shortFormat
 import ru.skillbranch.devintensive.models.BaseMessage

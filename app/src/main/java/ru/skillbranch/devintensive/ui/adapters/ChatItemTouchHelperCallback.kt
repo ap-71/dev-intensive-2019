@@ -8,7 +8,7 @@ import android.view.View
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
 import ru.skillbranch.devintensive.R
-import ru.skillbranch.devintensive.data.ChatItem
+import ru.skillbranch.devintensive.models.data.ChatItem
 
 class ChatItemTouchHelperCallback(val adapter: ChatAdapter, val swipeListener: (ChatItem) -> Unit) :
     ItemTouchHelper.Callback() {

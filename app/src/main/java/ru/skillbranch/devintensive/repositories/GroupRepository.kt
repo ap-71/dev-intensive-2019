@@ -1,9 +1,9 @@
 package ru.skillbranch.devintensive.repositories
 
 import ru.skillbranch.devintensive.data.managers.CacheManager
-import ru.skillbranch.devintensive.data.Chat
-import ru.skillbranch.devintensive.data.User
-import ru.skillbranch.devintensive.data.UserItem
+import ru.skillbranch.devintensive.models.data.Chat
+import ru.skillbranch.devintensive.models.data.User
+import ru.skillbranch.devintensive.models.data.UserItem
 import ru.skillbranch.devintensive.utils.DataGenerator
 
 object GroupRepository {

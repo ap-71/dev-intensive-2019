@@ -1,4 +1,4 @@
-package ru.skillbranch.devintensive.data
+package ru.skillbranch.devintensive.models.data
 
 data class ChatItem(
     val id: String,

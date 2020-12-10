@@ -1,7 +1,7 @@
 package ru.skillbranch.devintensive.models
 
-import ru.skillbranch.devintensive.data.Chat
-import ru.skillbranch.devintensive.data.User
+import ru.skillbranch.devintensive.models.data.Chat
+import ru.skillbranch.devintensive.models.data.User
 import java.util.*
 
 abstract class BaseMessage (

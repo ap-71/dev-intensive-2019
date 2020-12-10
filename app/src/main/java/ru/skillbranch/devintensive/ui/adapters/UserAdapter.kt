@@ -9,7 +9,7 @@ import com.bumptech.glide.Glide
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.item_user_list.view.*
 import ru.skillbranch.devintensive.R
-import ru.skillbranch.devintensive.data.UserItem
+import ru.skillbranch.devintensive.models.data.UserItem
 
 class UserAdapter(val listener :(UserItem)-> Unit): RecyclerView.Adapter<UserAdapter.UserViewHolder>() {
 private var items:List<UserItem> = listOf()
