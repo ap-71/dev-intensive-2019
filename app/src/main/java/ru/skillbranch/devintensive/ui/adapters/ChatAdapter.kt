@@ -13,8 +13,8 @@ import kotlinx.android.synthetic.main.item_chat_group.view.*
 import kotlinx.android.synthetic.main.item_chat_single.view.*
 import kotlinx.android.synthetic.main.item_chat_single.view.iv_avatar_single
 import ru.skillbranch.devintensive.R
-import ru.skillbranch.devintensive.models.data.ChatItem
-import ru.skillbranch.devintensive.models.data.ChatType
+import ru.skillbranch.devintensive.data.ChatItem
+import ru.skillbranch.devintensive.data.ChatType
 
 class ChatAdapter(val listener: (ChatItem) -> Unit) :
     RecyclerView.Adapter<ChatAdapter.ChatItemViewHolder>() {

@@ -1,8 +1,7 @@
-package ru.skillbranch.devintensive.models.data
+package ru.skillbranch.devintensive.data
 
 import ru.skillbranch.devintensive.extensions.shortFormat
 import ru.skillbranch.devintensive.models.BaseMessage
-import ru.skillbranch.devintensive.models.TextMessage
 import ru.skillbranch.devintensive.utils.DataGenerator
 import ru.skillbranch.devintensive.utils.Utils
 import java.util.*

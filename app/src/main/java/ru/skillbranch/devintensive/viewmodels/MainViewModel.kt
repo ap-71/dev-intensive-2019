@@ -3,11 +3,7 @@ package ru.skillbranch.devintensive.viewmodels
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
-import ru.skillbranch.devintensive.data.managers.CacheManager
-import ru.skillbranch.devintensive.extensions.mutableLiveData
-import ru.skillbranch.devintensive.models.data.Chat
-import ru.skillbranch.devintensive.models.data.ChatItem
-import ru.skillbranch.devintensive.models.data.User
+import ru.skillbranch.devintensive.data.ChatItem
 import ru.skillbranch.devintensive.repositories.ChatRepository
 
 class MainViewModel: ViewModel() {
